@@ -1,0 +1,38 @@
+body{
+    background-image: url(/images/images.jpg);
+    background-size:contain;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   transform: translateY(10rem);
+   
+}
+
+.text{
+    color:black;
+    font-weight: bolder;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    transform: translateY(20rem);
+}
+
+.anime{
+    animation-name: uline;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transition: 3s ease
+}
+
+@keyframes uline {
+
+    0%{text-decoration: underline;}
+    100%{text-decoration: none;}
+    
+}
