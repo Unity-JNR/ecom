@@ -23,3 +23,6 @@ mix-blend-mode: multiply;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
 }
+#placement{
+   transform: translateX(14rem);
+}
