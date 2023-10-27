@@ -1,0 +1,140 @@
+/* Style the entire table */
+body{
+    background-image: url(/images/images.jpg);
+    background-size: auto;
+}
+table {
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse; /* Remove spacing between cells */
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style table rows (alternating background color) */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(odd){
+    background-color: black;
+color: whitesmoke;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style the product images */
+  td img.size {
+    max-width: 100px;
+    max-height: 100px;
+    border: 1px solid #ccc;
+  }
+  
+
+
+
+
+
+
+  #imgsize{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    height: 60px;
+}
+
+.footer-container{
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+    margin-bottom: 1.4rem;
+}
+
+
+/* Style the copyright notice */
+footer p {
+    margin: 0; /* Remove default paragraph margins */
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+  a.current {
+    /* Your styles for the "current" link go here */
+    pointer-events: none; /* Disables the link */
+    text-decoration: none; /* Removes the underline */
+    color: #888; /* Change the color to indicate it's disabled */
+  }
+
+
+
+
+  /* @media (max-width:998px){
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+    header{
+        padding: 2px;
+    }
+
+    nav{
+        font-size: 12px;
+    }
+
+    #imgsize{
+        bottom: 1px;
+        width: 50px;
+        height: 30px;
+        
+    }
+  }
+ */
+
+ @media screen and (max-width: 720px) {
+  /* Styles for screens up to 720px wide */
+  table {
+    font-size: 14px; /* Example: Adjust font size for smaller screens */
+  }
+  header {
+    padding: 5px; /* Example: Reduce header padding */
+  }
+  a {
+    padding: 10px; /* Example: Adjust link padding */
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* Styles for screens up to 300px wide */
+  table {
+    font-size: 12px; /* Example: Further reduce font size for very small screens */
+  }
+  header {
+    padding: 5px;
+  }
+  a {
+    padding: 5px; /* Example: Further adjust link padding */
+  }
+  footer p {
+    font-size: 12px; /* Example: Adjust font size in the footer */
+  }
+}
+
+
