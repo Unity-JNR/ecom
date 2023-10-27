@@ -1,0 +1,9 @@
+body{
+    background-image: url(/images/images.jpg);
+    background-size: auto;
+}
+
+div p{
+    font-weight: bolder;
+}
+
