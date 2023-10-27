@@ -1,0 +1,25 @@
+body{
+    background-image: url(/images/images.jpg);
+    background-size: auto;
+}
+
+.container img {
+    width: 500px;
+    height: 500px;
+mix-blend-mode: multiply;
+}
+
+.container p{
+    font-weight: bolder;
+}
+
+.container{
+    border: 1px solid;
+    
+}
+.gridss{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
